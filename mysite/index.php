@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Site</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#"><img src="img/maginfy.png" alt="logo" ></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#spec">Specification</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Creative
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#gallery">Gallery</a>
+                    <a class="dropdown-item" href="#writing">Writing</a>
+                    <a class="dropdown-item" href="#art">Arts</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#project">Projects</a>
+                  </div>
+                </li>
+            </div>
+          </nav>
+    </section>
+    <section id="breadcrumb">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item active" aria-current="page">Home</li>
+            </ol>
+          </nav>
+    </section>
+    <section id="banner">
+        <div class="banner">
+            <div class="banner-text">
+                <h1 class="text-center">I'm <br> Sandeep Shaw</h1>
+                <h3 class="text-center"><span class="type"></span></h3>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h1 class="text-center">ABOUT</h1>
+        <div class="container">
+            <div class="row">
+              <!-- Team Member 1 -->
+              <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-0">
+                  <img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
+                  <div class="card-body text-center">
+                    <h5 class="card-title mb-0">Team Member</h5>
+                    <div class="card-text text-black-50">Web Developer</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-9 col-md-6 mb-4 about-text text-center">
+                <p> <i class="fa fa-quote-left"></i> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                   Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                   when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                   It has survived not only five centuries, but also the leap into electronic typesetting,
+                   remaining essentially unchanged. 
+                   It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                   and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                   <i class="fa fa-quote-right"></i>
+                   </p>
+                   <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-warning">Contact</button>
+                    <button type="button" class="btn btn-success">Resume</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <!-- /.container -->
+    </section>
+    <section id="carousel">
+      <div class="container">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/banner.jpg" alt="Los Angeles" width="1100" height="500">
+              <div class="carousel-caption">
+                <h3>Los Angeles</h3>
+                <p>We had such a great time in LA!</p>
+              </div>   
+            </div>
+            <div class="carousel-item">
+              <img src="img/banner.jpg" alt="Chicago" width="1100" height="500">
+              <div class="carousel-caption">
+                <h3>Chicago</h3>
+                <p>Thank you, Chicago!</p>
+              </div>   
+            </div>
+            <div class="carousel-item">
+              <img src="img/banner.jpg" alt="New York" width="1100" height="500">
+              <div class="carousel-caption">
+                <h3>New York</h3>
+                <p>We love the Big Apple!</p>
+              </div>   
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="spec">
+      <h1 class="text-center">SPECIFICATION</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-6 mb-4">
+            <div class="card border-0 bg-primary">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0"><i class="fa fa-html5"></i></h5>
+                <div class="card-text text-black-50"> HTML5</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-6 mb-4">
+            <div class="card border-0 bg-success">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0"><i class="fa fa-css3"></i></h5>
+                <div class="card-text text-black-50"> CSS3</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-6 mb-4">
+            <div class="card border-0 bg-info">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0"><i class="fa fa-database"></i></h5>
+                <div class="card-text text-black-50"> MySQL</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-6 mb-4">
+            <div class="card border-0 bg-warning">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0"><i class="fa fa-coffee"></i></h5>
+                <div class="card-text text-black-50"> JAVA</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-6 mb-4">
+            <div class="card border-0 bg-danger">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0"><i class="fa fa-hashtag"></i></h5>
+                <div class="card-text text-black-50"> C </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-6 mb-4">
+            <div class="card border-0 bg-light">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0"><i class="fa fa-code"></i></h5>
+                <div class="card-text text-black-50">PHP</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-6 mb-4">
+            <div class="card border-0 box1">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0"><i class="fa fa-file-powerpoint-o"></i></h5>
+                <div class="card-text text-black-50">POWERPOINT</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-6 mb-4">
+            <div class="card border-0 box2">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0"><i class="fa fa-file-excel-o"></i></h5>
+                <div class="card-text text-black-50">EXCEL</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <br>
+    <section id="creative">
+      <h1 class="text-center">CREATIVE</h1>
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-3 col-sm-6 col-6 my-1 ">
+            <a id="gallery" href="" class="val btn btn-outline-info"><i class="fa fa-camera fa-4x"></i></a>
+            <span  class="seen s1">Gallery</span>
+          </div>
+          <div class="col-md-3 col-sm-6 col-6 my-1">
+            <a id="art" href="" class="val btn btn-outline-success"><i class="fa fa-paint-brush fa-4x"></i></a>
+            <span  class="seen s2">Art</span>
+          </div>
+          <div class="col-md-3 col-sm-6 col-6 my-1">
+            <a id="writing" href="" class="val btn btn-outline-danger "><i class="fa fa-pencil fa-4x"></i></a>
+            <span  class="seen s3">Writing</span>
+          </div>
+          <div class="col-md-3 col-sm-6 col-6 my-1">
+            <a id="project" href="" class="val btn btn-outline-dark "><i class="fa fa-desktop fa-4x"></i></a>
+            <span  class="seen s4">Project</span>
+          </div>
+        </div>
+      </div>
+    </section>
+ <br>
+  <section id="contact">
+    <h1 class="text-center">CONTACT</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <form action="">
+            <div class="form-group">
+              <input class="form-control" type="text" name="name" placeholder="Enter Name">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="Enter Email">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject"  placeholder="Enter Subject">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-warning">Submit</button>
+          </form>
+        </div>
+        <div class="col-md-6 text-center">
+          <div class="address">
+            <i class="fa fa-map-marker fa-4x p-2"></i>
+            <p>23/1/H/17 Cossipore Road Kol-700002</p>
+          </div>
+          <div class="address">
+            <i class="fa fa-envelope fa-4x p-2"></i>
+            <p>sandeep10shaw@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+<section id="footer">
+  <h5 class="text-center">FOLLOW ME</h5>
+  <div class="d-flex justify-content-center">
+    <div class="p-2 bd-highlight social item1"><i class="fa fa-linkedin-square fa-2x"></i></div>
+    <div class="p-2 bd-highlight social item2"><i class="fa fa-github fa-2x"></i></div>
+    <div class="p-2 bd-highlight social item3"><i class="fa fa-instagram fa-2x"></i></div>
+    <div class="p-2 bd-highlight social item4"><i class="fa fa-youtube-play fa-2x"></i></div>
+  </div>
+  <div class="d-flex justify-content-center mb-0">
+    <div class="p-2 bd-highlight small">Made with <i class="fa fa-heart"></i> by me</div>
+  </div>
+  <div class="d-flex justify-content-center m-0 ">
+    <div class="p-2 bd-highlight small">Copyright &copy;</div>
+  </div>
+  <div class="d-flex justify-content-center mt-0">
+    <div class="p-2 bd-highlight small">All Rights Reserved<?php echo date("Y"); ?></div>
+  </div>
+</section>
+
+    
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="js/smooth-scroll.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+    <script src="js/typed.js"></script>
+    <script>
+        var typed = new Typed('.type', {
+          strings: [
+              "Student",
+              "Learner",
+              "Designer",
+              "Explorer"],
+          typeSpeed: 50,
+          backSpeed: 50,
+          loop:true
+        });   
+    </script>
+</body>
+</html>
